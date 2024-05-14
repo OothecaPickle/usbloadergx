@@ -47,15 +47,13 @@ cat <<EOF > ./HBC/meta.xml
 	<coder>USB Loader GX Team</coder>
 	<version>3.0 r$rev_new</version>
 	<release_date>$rev_date</release_date>
-	<!-- remove this line to enable arguments
 	<arguments>
 		<arg>--ios=249</arg>
 		<arg>--bootios=58</arg>
 		<arg>--usbport=0</arg>
-		<arg>--mountusb=1</arg>
-		<arg>--sdmode=0</arg>
+		<arg>--mountusb=0</arg>
+		<arg>--sdmode=1</arg>
 	</arguments>
-	remove this line to enable arguments -->
 	<ahb_access/>
 	<short_description>Loads games from USB-devices</short_description>
 	<long_description>USB Loader GX is a libwiigui based USB iso loader with a wii-like GUI. You can install games to your HDDs and boot them with shorter loading times.
